@@ -10,9 +10,12 @@ export const MethodRoutes = () => {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<InterpolationComponent />} />
-          <Route path="/interpoinversa" element={<InterpolationComponent />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="MetNumProy/" element={<InterpolationComponent />} />
+          <Route
+            path="MetNumProy/interpoinversa"
+            element={<InterpolationComponent />}
+          />
+          <Route path="MetNumProy/login" element={<LoginPage />} />
         </Routes>
       </div>
     </>
