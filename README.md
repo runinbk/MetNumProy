@@ -2,10 +2,9 @@
 
 ## Integrantes
 
-- [x] 20181020059 - Jose Luis Pineda
-- [x] 20181020060 - Jose Luis Pineda
-- [x] 20181020061 - Jose Luis Pineda
-- [x] 20181020062 - Jose Luis Pineda
+- [x] 216162009 - GOMEZ ROCHA KEVIN BRAYAN
+- [x] 219050635 - SENSANO BONILLA ERIK
+- [x] 217182860 - YARHUI GUAMAN HELEN ROSARIO
 
 ## Descripcion
 
@@ -64,19 +63,43 @@ Este proyecto es una implementacion del Metodo de Interpolacion Inversa de Lagra
 
 ## Instalacion
 
-- [x] git clone
-- [x] cd MetNumProy
-- [x] npm install
-- [x] npm run dev
+Primero se debe clonar el repositorio, luego se debe instalar las dependencias y por ultimo se debe ejecutar el proyecto.
+
+```bash
+git clone https://github.com/runinbk/MetNumProy.git
+```
+
+```bash
+cd MetNumProy
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
 
 ## Uso
 
-- [x] npm run dev
-- [x] npm run build
+Comando para ejecutar el proyecto en modo desarrollo
+
+```bash
+npm run dev
+```
+
+Comando para ejecutar el proyecto en modo produccion
+
+```bash
+npm run build
+```
 
 ## Contribucion
 
-- [x] Jose Luis Pineda
+- [x] GOMEZ ROCHA KEVIN BRAYAN
+- [x] SENSANO BONILLA ERIK
+- [x] YARHUI GUAMAN HELEN ROSARIO
 
 ## Licencia
 
@@ -84,4 +107,4 @@ Este proyecto es una implementacion del Metodo de Interpolacion Inversa de Lagra
 
 ## Creditos
 
-- [x] Jose Luis Pineda
+- [x] GOMEZ ROCHA KEVIN BRAYAN
