@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   const onLogout = () => {
     logout();
-    navigate("MetNumProy/login", { replace: true });
+    navigate("/MetNumProy/login", { replace: true });
   };
 
   return (
@@ -19,7 +19,7 @@ export const Navbar = () => {
       {/*  */}
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-3 ">
         <div className="container-fluid ">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/MetNumProy/">
             Metodos Numericos
           </Link>
 
@@ -29,7 +29,7 @@ export const Navbar = () => {
                 className={({ isActive }) =>
                   `nav-item nav-link ${isActive && "active"}`
                 }
-                to="/interpoinversa"
+                to="/MetNumProy/interpoinversa"
               >
                 Interpolacion Inversa
               </NavLink>
